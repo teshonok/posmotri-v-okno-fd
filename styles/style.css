@@ -109,6 +109,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 3px;
 }
 
 .content__list {
@@ -266,8 +267,8 @@ ol {
 }
 
 .more-button {
-  display: block;
-  padding: 6px 0;
+  width: 100%;
+  padding: 6px;
 }
 
 .button:hover {
