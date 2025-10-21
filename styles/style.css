@@ -85,7 +85,7 @@ ol {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: 26px;
+  gap: 20px;
 }
 
 .result {
@@ -117,7 +117,7 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 23px;
 }
 
 .content__video-card {
@@ -220,7 +220,6 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
 }
 
@@ -265,18 +264,17 @@ ol {
   text-align: center;
   background-color: transparent;
   cursor: pointer;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .search-form__submit-button {
   align-self: flex-end;
   padding: 6px 72px;
-  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .more-button {
   width: 100%;
   padding: 6px;
-  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .button:hover {
@@ -326,4 +324,4 @@ ol {
   padding: 3px 0;
 }
 
-/* ещё у вас последние ссылочки на яндекс док не открываются в общем комментарии, но суть я вроде поняла, но на всякий случай скажу!! спасибо за проверку :з */
+/* вроде отступы поправила НАДЕЮСЬ верно всё поняла. Сочувствую вашему интернету и спасибо за проверку :зз*/
